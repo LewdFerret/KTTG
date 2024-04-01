@@ -1,10 +1,14 @@
-[gd_scene load_steps=7 format=3 uid="uid://bhltwc88uwok1"]
+[gd_scene load_steps=8 format=3 uid="uid://bhltwc88uwok1"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j7t86"]
 bg_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_b4o27"]
 font_size = 81
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wh82l"]
+font_size = 36
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Animation" id="Animation_lt1uc"]
@@ -94,29 +98,42 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Details" type="Label" parent="Panel"]
-layout_mode = 0
-offset_left = 435.0
-offset_top = 151.0
-offset_right = 662.0
-offset_bottom = 538.0
-text = "blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalba
-blablalbablablalba
-blablalba
-blablalba"
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -209.5
+offset_top = -193.5
+offset_right = 209.5
+offset_bottom = 193.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "This game contains ADULT content, full with kinks and 
+nasty/gross visual depictions.
+If you are a minor, LEAVE NOW!
+
+Otherwise enjoy~"
+label_settings = SubResource("LabelSettings_wh82l")
 horizontal_alignment = 1
 vertical_alignment = 1
 justification_flags = 161
+
+[node name="ContinueBtn" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -134.0
+offset_top = -41.0
+offset_right = 134.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Continue with enter or by clicking"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
