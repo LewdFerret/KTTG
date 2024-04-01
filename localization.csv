@@ -1,0 +1,22 @@
+,de,en,fr
+PROMPTS,Stichwörter,Prompts,Prompts
+OPTIONS,Optionen,Options,Options
+EXIT,Verlassen,Exit,Sortie
+ABOUT,Über,About,À propos de
+BACK,Zurück,Back,Retour
+DAY %d,Tag,Day,Jour
+VWS,Aufrufe: %d,Views: %d,vues: %d
+GENERAL,Allgemein,General,
+AUDIO,Audio,Audio,Audio
+VIDEO,Video,Video,Vidéo
+LANGUAGE: ,Sprache: , Language: ,Langue: 
+SAVE,Speichern,Save,Sauver
+DSBLD,Deaktiviert (am Schnellsten),Disabled (Fastest),Désactivé (Le plus rapide)
+TT,2x (Moderat),2x (Average),2x (Moyenne)
+FT,4x (Langsam),4x (Slow),4x (Lent)
+ET,8x (am Langsamsten),8x (Slowest),8x (Le plus lent)
+SPS_FXAA,FXAA (Schnell),FXAA (Fast),FXAA (Rapide)
+MSTR_VLM,Gesamtlautstärke,Master Volume,Volume Principal
+MSC_VLM,Musik,Music,musique
+MN_VLM,Stöhnen,Moans,gémir
+PNTR_VLM,Penetration,Penetration,pénétration

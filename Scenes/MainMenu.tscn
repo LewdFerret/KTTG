@@ -1,0 +1,910 @@
+<<<<<<< HEAD
+[gd_scene load_steps=45 format=3 uid="uid://b6px5fh7isep1"]
+
+[ext_resource type="PackedScene" uid="uid://dvattmg75tgjb" path="res://Prefabs/PromptDisplay.tscn" id="1_6xfbb"]
+[ext_resource type="Script" path="res://Scripts/MainMenu.gd" id="1_j8g1n"]
+[ext_resource type="PackedScene" uid="uid://cjfl5fxqtd32w" path="res://Scenes/Prompts/Day1.tscn" id="4_2tqpb"]
+[ext_resource type="PackedScene" uid="uid://ctk2lt2doedd6" path="res://Scenes/Prompts/Testtest.tscn" id="5_3t3p8"]
+[ext_resource type="AudioStream" uid="uid://dtbpc030a5mat" path="res://Sound/Music/MainMenu.wav" id="7_q02he"]
+=======
+[gd_scene load_steps=7 format=3 uid="uid://b6px5fh7isep1"]
+
+[ext_resource type="PackedScene" uid="uid://dvattmg75tgjb" path="res://Prefabs/PromptDisplay.tscn" id="1_6xfbb"]
+[ext_resource type="Script" path="res://Scripts/MainMenu.gd" id="1_j8g1n"]
+>>>>>>> 5f3cdfd (Initial Commit)
+
+[sub_resource type="LabelSettings" id="LabelSettings_46uo3"]
+font_size = 40
+font_color = Color(0.278431, 1, 1, 1)
+shadow_color = Color(0, 0.588235, 0.588235, 1)
+shadow_offset = Vector2(2.755, 1.025)
+
+[sub_resource type="InputEventKey" id="InputEventKey_tv6k1"]
+keycode = 4194305
+
+[sub_resource type="Shortcut" id="Shortcut_chsur"]
+events = [SubResource("InputEventKey_tv6k1")]
+
+<<<<<<< HEAD
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_f1lna"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_xwnjd"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_is6pf"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_663ba"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_0dqsa"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ya7n0"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_l6vih"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_f2o55"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_3y7h3"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_rvi0n"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_iqs3v"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_4ptn3"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_x7bcd"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_f3c0d"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_7vnas"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_jn701"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_23r5w"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_tx4k7"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ty3un"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_tplnc"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_qtygg"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ervqd"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_qd5vc"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_anvip"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_2ncoh"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_2vlfn"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_4cp7l"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ng6j0"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_e4l8n"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_86fre"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_adjrd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nnoc2"]
+bg_color = Color(0.552941, 0.647059, 0.235294, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6lhse"]
+bg_color = Color(0.509804, 0.596078, 0.211765, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1o3i7"]
+bg_color = Color(0.415686, 0.486275, 0.164706, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wbtff"]
+bg_color = Color(0.321569, 0.380392, 0.121569, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qthbp"]
+bg_color = Color(0.219608, 0.262745, 0.0705882, 1)
+=======
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_7uxuk"]
+>>>>>>> 5f3cdfd (Initial Commit)
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j8g1n")
+
+[node name="MainPnl" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="MainPnl"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -247.0
+offset_top = 155.0
+offset_right = 298.0
+offset_bottom = 210.0
+grow_horizontal = 2
+rotation = -0.212899
+text = "(FURRY) KINKTOBER 2024, THE GAME"
+label_settings = SubResource("LabelSettings_46uo3")
+
+[node name="Prompts" type="Button" parent="MainPnl"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -82.5
+offset_top = -29.0
+offset_right = 82.5
+offset_bottom = 29.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 36
+<<<<<<< HEAD
+text = "PROMPTS"
+=======
+text = " Prompts"
+>>>>>>> 5f3cdfd (Initial Commit)
+
+[node name="Options" type="Button" parent="MainPnl"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -72.0
+offset_top = -204.0
+offset_right = 73.0
+offset_bottom = -146.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 36
+text = "OPTIONS"
+
+[node name="Exit" type="Button" parent="MainPnl"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -72.0
+offset_top = -102.0
+offset_right = 73.0
+offset_bottom = -44.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 36
+text = "EXIT"
+
+[node name="About" type="Button" parent="MainPnl"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 377.0
+offset_top = -102.0
+offset_right = 522.0
+offset_bottom = -44.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 36
+text = "ABOUT"
+
+[node name="PromptsPnl" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="PromptsPnl"]
+layout_mode = 2
+offset_left = 496.0
+offset_top = 10.0
+offset_right = 656.0
+offset_bottom = 57.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 34
+text = "PROMPTS"
+
+[node name="Back" type="Button" parent="PromptsPnl"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 76.0
+offset_bottom = 49.0
+theme_override_font_sizes/font_size = 22
+shortcut = SubResource("Shortcut_chsur")
+text = "BACK"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PromptsPnl"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -558.0
+offset_top = -241.0
+offset_right = 558.0
+offset_bottom = 281.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PromptsPnl/ScrollContainer"]
+layout_mode = 2
+
+<<<<<<< HEAD
+[node name="Day1" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Macro/Micro"
+texture = SubResource("PlaceholderTexture2D_f1lna")
+scene_to_open = ExtResource("4_2tqpb")
+hasCW = false
+
+[node name="Day2" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Inflation"
+texture = SubResource("PlaceholderTexture2D_xwnjd")
+day = 2
+scene_to_open = ExtResource("5_3t3p8")
+hasCW = false
+
+[node name="Day3" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Breeding"
+texture = SubResource("PlaceholderTexture2D_is6pf")
+day = 3
+hasCW = false
+
+[node name="Day4" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Rimming"
+texture = SubResource("PlaceholderTexture2D_663ba")
+day = 4
+hasCW = false
+
+[node name="Day5" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Sweat"
+texture = SubResource("PlaceholderTexture2D_0dqsa")
+day = 5
+color = Color(0.827451, 0.827451, 0, 1)
+eod = "The act of smelling or licking of sweat.
+May be disturbing for some people."
+
+[node name="Day6" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Chastity"
+texture = SubResource("PlaceholderTexture2D_ya7n0")
+day = 6
+hasCW = false
+
+[node name="Day7" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Fart"
+texture = SubResource("PlaceholderTexture2D_l6vih")
+day = 7
+color = Color(0.827451, 0.827451, 0, 1)
+eod = "The act of smelling, \"tasting\" or generally just enjoying farts.
+May be disturbing for some People."
+
+[node name="Day8" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Gore"
+texture = SubResource("PlaceholderTexture2D_f2o55")
+day = 8
+color = Color(0.905882, 0, 0, 1)
+cw_name = "Hard"
+eod = "Depiction of blood, organs and more.
+Can be very disturbing for many people."
+
+[node name="Day9" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Gloryhole"
+texture = SubResource("PlaceholderTexture2D_3y7h3")
+day = 9
+hasCW = false
+
+[node name="Day10" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Praise Kink"
+texture = SubResource("PlaceholderTexture2D_rvi0n")
+day = 10
+hasCW = false
+
+[node name="Day11" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Petplay"
+texture = SubResource("PlaceholderTexture2D_iqs3v")
+day = 11
+hasCW = false
+
+[node name="Day12" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Interspecies"
+texture = SubResource("PlaceholderTexture2D_4ptn3")
+day = 12
+hasCW = false
+
+[node name="Day13" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Size Difference"
+texture = SubResource("PlaceholderTexture2D_x7bcd")
+day = 13
+hasCW = false
+
+[node name="Day14" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Armpit"
+texture = SubResource("PlaceholderTexture2D_f3c0d")
+day = 14
+color = Color(0.827451, 0.827451, 0, 1)
+eod = "The Act of Smelling, licking or rubbing ones genitalia against an Armpit.
+Can be disturbing for some people."
+
+[node name="Day15" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "NonCon"
+texture = SubResource("PlaceholderTexture2D_7vnas")
+day = 15
+color = Color(0.905269, 2.38247e-06, 1.92523e-07, 1)
+cw_name = "Hard"
+eod = "Depiction of sexual acts with non-consenting persons.
+Can be disturbing for most people."
+
+[node name="Day16" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Public"
+texture = SubResource("PlaceholderTexture2D_jn701")
+day = 16
+hasCW = false
+
+[node name="Day17" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Vore"
+texture = SubResource("PlaceholderTexture2D_23r5w")
+day = 17
+color = Color(0.905269, 2.38247e-06, 1.92523e-07, 1)
+cw_name = "Hard"
+eod = "The act of consuming a living being. Sometimes also depicted with digestion.
+Can be disturbing for many peope."
+
+[node name="Day18" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Olphactophilia"
+texture = SubResource("PlaceholderTexture2D_tx4k7")
+day = 18
+color = Color(0.827451, 0.827451, 0, 1)
+eod = "The Arousal by smell, especially to those emmited by genitalia, and sometimes \"nasty\" smells."
+
+[node name="Day19" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Feet"
+texture = SubResource("PlaceholderTexture2D_ty3un")
+day = 19
+hasCW = false
+
+[node name="Day20" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Watersports"
+texture = SubResource("PlaceholderTexture2D_tplnc")
+day = 20
+color = Color(1, 0.4, 0, 1)
+cw_name = "Medium"
+eod = "The act of urinating on oneself, another one, and/or consuming urine."
+
+[node name="Day21" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Tentacles"
+texture = SubResource("PlaceholderTexture2D_qtygg")
+day = 21
+hasCW = false
+
+[node name="Day22" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Bondage"
+texture = SubResource("PlaceholderTexture2D_ervqd")
+day = 22
+color = Color(1, 0.4, 0, 1)
+cw_name = "Medium"
+eod = "The act of being bound to something or being immobilized by ropes, latex, etc..."
+
+[node name="Day23" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Scat"
+texture = SubResource("PlaceholderTexture2D_qd5vc")
+day = 23
+color = Color(1, 0.4, 0, 1)
+cw_name = "Medium"
+eod = "Scat is the Act of defecating on someone, getting defecated on or even consuming feces."
+
+[node name="Day24" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Sex Toys"
+texture = SubResource("PlaceholderTexture2D_anvip")
+day = 24
+hasCW = false
+
+[node name="Day25" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Edgeplay"
+texture = SubResource("PlaceholderTexture2D_2ncoh")
+day = 25
+hasCW = false
+
+[node name="Day26" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Overstim"
+texture = SubResource("PlaceholderTexture2D_2vlfn")
+day = 26
+hasCW = false
+
+[node name="Day27" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Double Penetration 2 Holes"
+texture = SubResource("PlaceholderTexture2D_4cp7l")
+day = 27
+hasCW = false
+
+[node name="Day28" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Free Use"
+texture = SubResource("PlaceholderTexture2D_ng6j0")
+day = 28
+color = Color(0.827451, 0.827451, 0, 1)
+eod = "When someone is free to get sexually used, sometimes as an punishment.
+Can get rough, thats why the CW's here."
+
+[node name="Day29" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Incest"
+texture = SubResource("PlaceholderTexture2D_e4l8n")
+day = 29
+color = Color(0.905269, 2.38247e-06, 1.92523e-07, 1)
+cw_name = "Hard"
+eod = "Sexual acts involving family members, mostly related by blood."
+
+[node name="Day30" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Sounding"
+texture = SubResource("PlaceholderTexture2D_86fre")
+day = 30
+color = Color(1, 0.4, 0, 1)
+cw_name = "Medium"
+eod = "The act of sticking a tube (or generally round objects) into ones urethra.
+Can be disturbing for some people."
+
+[node name="Day31" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Dirty Anal"
+texture = SubResource("PlaceholderTexture2D_adjrd")
+day = 31
+color = Color(0.905269, 2.38247e-06, 1.92523e-07, 1)
+cw_name = "Hard"
+eod = "Anal sex, that's inducing the release of feces, or starts with feces around the anus or on genitals."
+
+[node name="OptionsPnl" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="OptionsPnl"]
+layout_mode = 0
+offset_left = 496.0
+offset_top = 10.0
+offset_right = 656.0
+offset_bottom = 57.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 34
+text = "OPTIONS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Groups" type="TabContainer" parent="OptionsPnl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.096
+anchor_right = 1.0
+anchor_bottom = 0.898
+offset_top = -0.208
+offset_bottom = 0.0959473
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GENERAL" type="Panel" parent="OptionsPnl/Groups"]
+layout_mode = 2
+
+[node name="Language" type="HBoxContainer" parent="OptionsPnl/Groups/GENERAL"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -127.5
+offset_top = 10.0
+offset_right = 127.5
+offset_bottom = 50.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/GENERAL/Language"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "LANGUAGE: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="OptionsPnl/Groups/GENERAL/Language"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+item_count = 3
+selected = 0
+popup/item_0/text = "Deutsch"
+popup/item_0/id = 0
+popup/item_1/text = "English"
+popup/item_1/id = 1
+popup/item_2/text = "français"
+popup/item_2/id = 2
+
+[node name="AUDIO" type="Panel" parent="OptionsPnl/Groups"]
+visible = false
+layout_mode = 2
+
+[node name="MasterVolume" type="HBoxContainer" parent="OptionsPnl/Groups/AUDIO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -122.5
+offset_top = 10.0
+offset_right = 122.5
+offset_bottom = 50.0
+grow_horizontal = 2
+theme_override_constants/separation = 5
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/AUDIO/MasterVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "MSTR_VLM"
+
+[node name="HSlider" type="HSlider" parent="OptionsPnl/Groups/AUDIO/MasterVolume"]
+custom_minimum_size = Vector2(157.565, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Val" type="Label" parent="OptionsPnl/Groups/AUDIO/MasterVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "0"
+
+[node name="MusicVolume" type="HBoxContainer" parent="OptionsPnl/Groups/AUDIO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -122.5
+offset_top = 50.0
+offset_right = 122.5
+offset_bottom = 90.0
+grow_horizontal = 2
+theme_override_constants/separation = 5
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/AUDIO/MusicVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "MSC_VLM"
+
+[node name="HSlider" type="HSlider" parent="OptionsPnl/Groups/AUDIO/MusicVolume"]
+custom_minimum_size = Vector2(157.565, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Val" type="Label" parent="OptionsPnl/Groups/AUDIO/MusicVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "0"
+
+[node name="MoanVolume" type="HBoxContainer" parent="OptionsPnl/Groups/AUDIO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -122.5
+offset_top = 90.0
+offset_right = 122.5
+offset_bottom = 130.0
+grow_horizontal = 2
+theme_override_constants/separation = 5
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/AUDIO/MoanVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "MN_VLM"
+
+[node name="HSlider" type="HSlider" parent="OptionsPnl/Groups/AUDIO/MoanVolume"]
+custom_minimum_size = Vector2(157.565, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Val" type="Label" parent="OptionsPnl/Groups/AUDIO/MoanVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "0"
+
+[node name="PenetrationVolume" type="HBoxContainer" parent="OptionsPnl/Groups/AUDIO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -122.5
+offset_top = 130.0
+offset_right = 122.5
+offset_bottom = 170.0
+grow_horizontal = 2
+theme_override_constants/separation = 5
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/AUDIO/PenetrationVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "PNTR_VLM"
+
+[node name="HSlider" type="HSlider" parent="OptionsPnl/Groups/AUDIO/PenetrationVolume"]
+custom_minimum_size = Vector2(157.565, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Val" type="Label" parent="OptionsPnl/Groups/AUDIO/PenetrationVolume"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "0"
+
+[node name="VIDEO" type="Panel" parent="OptionsPnl/Groups"]
+visible = false
+layout_mode = 2
+
+[node name="MSAA2D" type="HBoxContainer" parent="OptionsPnl/Groups/VIDEO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -122.5
+offset_top = 10.0
+offset_right = 122.5
+offset_bottom = 52.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/VIDEO/MSAA2D"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "MSAA 2D: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="OptionsPnl/Groups/VIDEO/MSAA2D"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+item_count = 4
+selected = 0
+fit_to_longest_item = false
+popup/item_0/text = "DSBLD"
+popup/item_0/id = 0
+popup/item_1/text = "TT"
+popup/item_1/id = 1
+popup/item_2/text = "FT"
+popup/item_2/id = 2
+popup/item_3/text = "ET"
+popup/item_3/id = 3
+
+[node name="MSAA3D" type="HBoxContainer" parent="OptionsPnl/Groups/VIDEO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -122.5
+offset_top = 62.0
+offset_right = 122.5
+offset_bottom = 104.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/VIDEO/MSAA3D"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "MSAA 2D: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="OptionsPnl/Groups/VIDEO/MSAA3D"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+item_count = 4
+selected = 0
+fit_to_longest_item = false
+popup/item_0/text = "DSBLD"
+popup/item_0/id = 0
+popup/item_1/text = "TT"
+popup/item_1/id = 1
+popup/item_2/text = "FT"
+popup/item_2/id = 2
+popup/item_3/text = "ET"
+popup/item_3/id = 3
+
+[node name="SPSAA" type="HBoxContainer" parent="OptionsPnl/Groups/VIDEO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -106.5
+offset_top = 114.0
+offset_right = 106.5
+offset_bottom = 156.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/VIDEO/SPSAA"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "SPSAA: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="OptionsPnl/Groups/VIDEO/SPSAA"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+item_count = 2
+selected = 0
+fit_to_longest_item = false
+popup/item_0/text = "DSBLD"
+popup/item_0/id = 0
+popup/item_1/text = "SPS_FXAA"
+popup/item_1/id = 3
+
+[node name="TAA" type="HBoxContainer" parent="OptionsPnl/Groups/VIDEO"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -57.0
+offset_top = 158.0
+offset_right = 57.0
+offset_bottom = 192.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="OptionsPnl/Groups/VIDEO/TAA"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "TAA: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CheckBox" type="CheckBox" parent="OptionsPnl/Groups/VIDEO/TAA"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_nnoc2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6lhse")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1o3i7")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_wbtff")
+theme_override_styles/focus = SubResource("StyleBoxFlat_qthbp")
+
+[node name="SaveBtn" type="Button" parent="OptionsPnl"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -47.0
+offset_top = -52.0
+offset_right = 47.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "SAVE"
+
+[node name="AboutPanel" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="AboutPanel"]
+layout_mode = 0
+offset_left = 496.0
+offset_top = 10.0
+offset_right = 656.0
+offset_bottom = 57.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 34
+text = "ABOUT"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GithubRepoBtn" type="LinkButton" parent="AboutPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -48.5
+offset_top = -20.0
+offset_right = 48.5
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 26
+text = "Github Repo"
+underline = 1
+uri = "https://www.github.com/LewdFerret/KTTG"
+
+[node name="Back" type="Button" parent="AboutPanel"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 377.0
+offset_top = -102.0
+offset_right = 522.0
+offset_bottom = -44.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 36
+text = "BACK"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_q02he")
+volume_db = -75.631
+autoplay = true
+bus = &"Music"
+
+[connection signal="pressed" from="MainPnl/Prompts" to="." method="_on_prompts_btn_pressed"]
+[connection signal="pressed" from="MainPnl/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="MainPnl/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="MainPnl/About" to="." method="_on_about_pressed"]
+[connection signal="pressed" from="PromptsPnl/Back" to="." method="_on_prompts_back_btn_pressed"]
+[connection signal="item_selected" from="OptionsPnl/Groups/GENERAL/Language/OptionButton" to="." method="_on_option_button_item_selected"]
+[connection signal="value_changed" from="OptionsPnl/Groups/AUDIO/MasterVolume/HSlider" to="." method="_on_h_slider_value_changed"]
+[connection signal="value_changed" from="OptionsPnl/Groups/AUDIO/MusicVolume/HSlider" to="." method="_on_h_slider_value2_changed"]
+[connection signal="value_changed" from="OptionsPnl/Groups/AUDIO/MoanVolume/HSlider" to="." method="_on_h_slider_value3_changed"]
+[connection signal="value_changed" from="OptionsPnl/Groups/AUDIO/PenetrationVolume/HSlider" to="." method="_on_h_slider_value4_changed"]
+[connection signal="pressed" from="OptionsPnl/SaveBtn" to="." method="_on_save_btn_pressed"]
+[connection signal="pressed" from="AboutPanel/Back" to="." method="_on_about_back_btn_pressed"]
+=======
+[node name="PromptDisplay" parent="PromptsPnl/ScrollContainer/HBoxContainer" instance=ExtResource("1_6xfbb")]
+layout_mode = 2
+prompt = "Macro/Micro"
+texture = SubResource("PlaceholderTexture2D_7uxuk")
+hasCW = false
+
+[connection signal="pressed" from="MainPnl/Prompts" to="." method="_on_prompts_btn_pressed"]
+[connection signal="pressed" from="PromptsPnl/Back" to="." method="_on_prompts_back_btn_pressed"]
+>>>>>>> 5f3cdfd (Initial Commit)
