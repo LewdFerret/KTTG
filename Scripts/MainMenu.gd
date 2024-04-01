@@ -2,7 +2,6 @@ extends Control
 
 @onready var main_pnl = $MainPnl
 @onready var prompts_pnl = $PromptsPnl
-<<<<<<< HEAD
 @onready var options_pnl = $OptionsPnl
 @onready var about_panel = $AboutPanel
 
@@ -15,13 +14,10 @@ extends Control
 # 0     |0    |0    |0          |en      |disabled|disabled|disabled|0
 # Master|Music|Moans|Penetration|Language|msaa2d  |msaa3d  |spsaa   |taa
 # float |float|float|float      |String  |String  |String  |String  |int
-=======
->>>>>>> 5f3cdfd (Initial Commit)
 
 func _ready():
 	main_pnl.visible = true
 	prompts_pnl.visible = false
-<<<<<<< HEAD
 	options_pnl.visible = false
 	about_panel.visible = false
 	
@@ -33,22 +29,16 @@ func _ready():
 			f.store_string("0|0|0|0|en|disabled|disabled|disabled|0")
 			f.close()
 		load_le_settings()
-=======
->>>>>>> 5f3cdfd (Initial Commit)
 
 func _on_prompts_btn_pressed():
 	main_pnl.visible = false
 	prompts_pnl.visible = true
-<<<<<<< HEAD
 	options_pnl.visible = false
 	about_panel.visible = false
-=======
->>>>>>> 5f3cdfd (Initial Commit)
 
 func _on_prompts_back_btn_pressed():
 	main_pnl.visible = true
 	prompts_pnl.visible = false
-<<<<<<< HEAD
 	options_pnl.visible = false
 	about_panel.visible = false
 
@@ -249,5 +239,3 @@ func _on_h_slider_value4_changed(value):
 	AudioServer.set_bus_volume_db(PENETRATION_BUS_ID, linear_to_db(value))
 	AudioServer.set_bus_mute(PENETRATION_BUS_ID, value < $OptionsPnl/Groups/AUDIO/PenetrationVolume/HSlider.step)
 #endregion
-=======
->>>>>>> 5f3cdfd (Initial Commit)

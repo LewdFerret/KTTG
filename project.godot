@@ -11,17 +11,12 @@ config_version=5
 [application]
 
 config/name="KTTG"
-<<<<<<< HEAD
 config/version="0.2"
 config/tags=PackedStringArray("3d")
-=======
-config/version="0.1"
->>>>>>> 5f3cdfd (Initial Commit)
 run/main_scene="res://Scenes/MainMenu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
-<<<<<<< HEAD
 [autoload]
 
 Load="*res://Scripts/Load.gd"
@@ -33,10 +28,3 @@ project/assembly_name="KTTG"
 [internationalization]
 
 locale/translations=PackedStringArray("res://localization.de.translation", "res://localization.en.translation", "res://localization.fr.translation")
-=======
-[file_customization]
-
-folder_colors={
-"res://Models/Valentino/": "pink"
-}
->>>>>>> 5f3cdfd (Initial Commit)
