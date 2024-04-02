@@ -4,8 +4,7 @@ As I'm a \*little\* bit into feral, there will be some bonus scenes with ferals.
 I hope I get this done until October 1st.
 
 ## TODO
-- [ ] ~Make this repo public~  Nuh uh, TOS forbids this content so:
-  - [ ] find alternative
+- [x] Make this repo public
 - [ ] Finish Menu
 - [ ] Animate scenes
 - [ ] Incorporate said scenes into the game
