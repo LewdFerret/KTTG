@@ -1,3 +1,6 @@
+### NSFW
+This game is for adults only (18+), it contains sexual depictions of many kinds. All characters are 18+ and consent.
+
 # KTTG
 Furry Kinktober as a game. I first took some inspiration on [Pinterest](https://www.pinterest.com) but then freestyled it mostly.
 As I'm a \*little\* bit into feral, there will be some bonus scenes with ferals.
