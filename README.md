@@ -10,7 +10,7 @@ I hope I get this done until October 1st (*whispers* I didn't).
 I'm a little busy at this time and have little to no motivation to working on this project,
 as I'm a complete noob in blender and with art in general. (I don't think this'll be
 finished by Oct 2024, but I'll try my best). Update: It isn't even close to finished
-so it is now "Kinktober the Game ~2024~ 2025"
+so it is now "Kinktober the Game ~2024~ ~2025~ 2026"
 
 ## TODO
 - [x] Make this repo public
